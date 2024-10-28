@@ -90,7 +90,7 @@ body {
     @apply flex justify-between items-center gap-2
   }
   .main__bar__input{
-    @apply bg-white px-4 py-2 w-2/4 rounded-full
+    @apply bg-white px-4 py-2 w-3/5 rounded-full flex
   }
   .main__bar__input input{
     @apply w-4/5 outline-none
@@ -125,4 +125,13 @@ body {
   }
   .space__logo h2{
     @apply text-xl
+  }
+  .filters{
+    @apply flex
+  }
+  .filters button{
+    @apply bg-secondary rounded-full
+  }
+  .filters select{
+    @apply outline-none
   }

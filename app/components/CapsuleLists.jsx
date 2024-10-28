@@ -25,11 +25,11 @@ export const CapsuleLists = () => {
 
     const actionBodyTemplate = (rowData) => {
         return (
+            <Link href={`/${rowData.capsule_serial}`}>
             <button className="p-button p-component">
-                <Link href={`/${rowData.capsule_serial}`}>
                 Edit
-                </Link>
             </button>
+            </Link>
         );
     };
 
